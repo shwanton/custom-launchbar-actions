@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>MessagesAppIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.shwanmade.LaunchBar.action.Copy2FACodeFromMessages</string>
+	<key>CFBundleName</key>
+	<string>Copy 2FA Code from Messages</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Shawn Dempsey</string>
+		<key>LBEmail</key>
+		<string>shwanton@gmail.com</string>
+		<key>LBSummary</key>
+		<string>Action to copy the 2FA code from the latest messages message</string>
+		<key>LBTwitter</key>
+		<string>@shwanton</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBRunInBackground</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.scpt</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
